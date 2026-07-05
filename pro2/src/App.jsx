@@ -1,5 +1,5 @@
 import Shop from './Pages/Shop/Shop';
-import { createBrowserRouter, RouterProvider } from 'react-router-dom';
+import { createHashRouter, RouterProvider } from 'react-router-dom';
 import { Suspense , lazy, useEffect } from 'react';
 import Loader from './assets/Lotti Files/skipping TIME.json'
 import {useLottie} from "lottie-react";
@@ -26,7 +26,7 @@ useEffect(()=>{
 
 const { View } = useLottie({animationData: Loader})
 
-  const router = createBrowserRouter([
+  const router = createHashRouter([
     {
       path: '/',
       element: <Suspense fallback={View} > <Layout /> </Suspense>,

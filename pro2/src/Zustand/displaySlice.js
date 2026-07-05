@@ -1,18 +1,14 @@
 
 import {create} from "zustand";
-import axios from "axios";
+import db from "../../server/db.json";
 
-const url = "http://localhost:3000/products"
 export const useDisplay = create((set) => ({
      products : [],
      isLoading : true,
      getProducts: async (category) => {
-  const endpoint = category
-    ? `${url}?category=${category}`
-    : url;
-
-  const { data } = await axios.get(endpoint);
-  set({ products: data, isLoading: false });
-}
-
+          const data = category
+               ? db.products.filter(p => p.category === category)
+               : db.products;
+          set({ products: data, isLoading: false });
+     }
 })) 

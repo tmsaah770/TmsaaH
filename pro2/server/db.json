@@ -351,66 +351,6 @@
         "stock": 18
       },
       "id": 26
-    },
-    {
-      "userId": "sdV7yChCkcRCeapTSbK1NJe3ccf1",
-      "productId": 4,
-      "payload": {
-        "id": 4,
-        "image": "https://timzee-demo.myshopify.com/cdn/shop/products/Watch16.png?v=1562227257&width=533",
-        "category": "men watches",
-        "price": 200,
-        "title": "Golden Analog Watch",
-        "discount": 10,
-        "description": "Biltwell",
-        "stock": 7
-      },
-      "id": 29
-    },
-    {
-      "userId": "sdV7yChCkcRCeapTSbK1NJe3ccf1",
-      "productId": 3,
-      "payload": {
-        "id": 3,
-        "image": "https://timzee-demo.myshopify.com/cdn/shop/products/Watch7_cb15c914-d10f-4cd5-869a-beb6798eeb36.png?v=1562222786&width=533",
-        "category": "men watches",
-        "price": 230,
-        "title": "Dial Numeral",
-        "discount": 15,
-        "description": "Biltwell",
-        "stock": 15
-      },
-      "id": 31
-    },
-    {
-      "userId": "sdV7yChCkcRCeapTSbK1NJe3ccf1",
-      "productId": 1,
-      "payload": {
-        "id": 1,
-        "image": "https://timzee-demo.myshopify.com/cdn/shop/products/Watch10.png?v=1562224314&width=533",
-        "category": "men watches",
-        "price": 350,
-        "title": "Classical Numeral",
-        "discount": 12,
-        "description": "Fostelo",
-        "stock": 10
-      },
-      "id": 35
-    },
-    {
-      "userId": "sdV7yChCkcRCeapTSbK1NJe3ccf1",
-      "productId": 2,
-      "payload": {
-        "id": 2,
-        "image": "https://timzee-demo.myshopify.com/cdn/shop/products/Watch12.png?v=1562223032&width=533",
-        "category": "men watches",
-        "price": 200,
-        "title": "Black Numeral Dial",
-        "discount": 20,
-        "description": "Timzee",
-        "stock": 18
-      },
-      "id": 36
     }
   ]
 }

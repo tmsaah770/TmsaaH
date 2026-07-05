@@ -1,0 +1,1 @@
+var e=`/TmsaaH/assets/Bg1full-CM7dEtem.jpg`;export{e as t};

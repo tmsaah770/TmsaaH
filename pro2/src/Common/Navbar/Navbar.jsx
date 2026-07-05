@@ -52,20 +52,20 @@ export default function Navbar() {
       <div className="cen flex items-center justify-between gap-8  text-lg text-neutral-400 font-semibold ">
         <NavLink to={'/'} className='px-3 duration-300 hover:text-[#cca471] '> HOME </NavLink>
         <NavLink to={'/shop'} className='px-3 duration-300 hover:text-[#cca471]'> SHOP </NavLink>
-        <NavLink to={'/blog'} className=' px-3 duration-300 hover:text-[#cca471 '> BLOGS </NavLink>
+        <NavLink to={'/blog'} className=' px-3 duration-300 hover:text-[#cca471] '> BLOGS </NavLink>
         <NavLink to={'/contact'} className='px-3 duration-300 hover:text-[#cca471]'> CONTACT US </NavLink>
       </div>
-      <div className="lef flex items-center justify-center gap-8 text-neutral-400 pr-5 cursor-pointer ">
+      <div className="lef flex items-center justify-center gap-8 text-neutral-400 pr-5  ">
 
         
       {
         !CurrentUser ? 
-        <div className=" flex items-center justify-center gap-5">
-          <NavLink to={'/rejester'} className=' text-xl text-white hover:text-(--main-color) duration-300 '
+        <div className=" flex items-center justify-center gap-2.5">
+          <NavLink to={'/rejester'} className='cursor-pointer text-md text-white hover:text-(--main-color) duration-300 '
           > RIGESTER  
           </NavLink>
           <div className=" h-5 w-1 bg-(--main-color) "></div>
-          <NavLink to={'/login'} className=' text-xl text-white hover:text-(--main-color) duration-300 '
+          <NavLink to={'/login'} className='cursor-pointer text-md text-white hover:text-(--main-color) duration-300 '
           > LOGIN 
           </NavLink>
         </div>

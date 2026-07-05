@@ -25,7 +25,7 @@ export default function TopHome() {
         } }>
         <SwiperSlide>
           <div className="one">
-        <img src={img1} alt="" className=' relative w-[1600px]  ' />
+        <img src={img1} alt="" className=' relative w-400  ' />
        <div className="data absolute left-25 top-[20%] w-[42%] flex flex-col gap-5 ">
       <div className="top flex flex-col gap-4">
        <div className=" aler h2 text-white text-6xl relative  "> Alertzy </div>
@@ -35,7 +35,7 @@ export default function TopHome() {
         Expanding the offering is the choice between a leather strap or a metal bracelet, bringing the total new look. Black-tone stainless steel case with a black rubber strap. Scratch free sapphire crystal. </span>
         <div className=" flex text-neutral-500 text-xl gap-5 items-center"> Starting @ 
           <span className='text-[#cca471] text-[45px]'> $ 250.00 </span> </div>
-          <button className='btn relative  cursor-pointer w-[222px] bg-[#343435] duration-300 '> <p className='text-white  text-center py-3.5 text-lg'>EXPLORE SERVICES</p> </button>
+          <button className='btn relative  cursor-pointer w-55.5 bg-[#343435] duration-300 '> <p className='text-white  text-center py-3.5 text-lg'>EXPLORE SERVICES</p> </button>
        </div>
     </div>
         </SwiperSlide>
@@ -46,7 +46,7 @@ export default function TopHome() {
 
         <SwiperSlide>
           <div className="tow relative">
-          <img src={img2} alt="" className='  w-[1600px]  ' />
+          <img src={img2} alt="" className='  w-400  ' />
        <div className="data absolute right-25 top-[20%] w-[42%] flex flex-col gap-5 ">
       <div className="top flex flex-col gap-4">
        <div className=" aler2 h2 text-white text-6xl relative"> Gertious </div>
@@ -57,7 +57,7 @@ export default function TopHome() {
          </span>
         <div className=" flex text-neutral-500 text-xl gap-5 items-center"> Starting @ 
           <span className='text-[#cca471] text-[45px]'> $350.00 </span> </div>
-          <button className='  relative btn cursor-pointer w-[222px] bg-[#343435] duration-300 '> <p className='text-white  text-center py-3.5 text-lg'>EXPLORE SERVICES</p> </button>
+          <button className='  relative btn cursor-pointer w-55.5 bg-[#343435] duration-300 '> <p className='text-white  text-center py-3.5 text-lg'>EXPLORE SERVICES</p> </button>
        </div>
        
        </div>
@@ -65,7 +65,7 @@ export default function TopHome() {
 
         <SwiperSlide>
           <div className="three relative text-center">
-           <img src={img3} alt="" className='  w-[1600px]  ' />
+           <img src={img3} alt="" className='  w-400  ' />
        <div className="data absolute left-25 top-[23%] w-[42%] flex flex-col items-center gap-5 ">
       <div className="top flex flex-col gap-4">
        <div className=" aler3 h2 text-white text-6xl relative pl-5"> Gorgeous </div>
@@ -76,7 +76,7 @@ export default function TopHome() {
          </span>
         <div className=" flex text-neutral-500 text-xl gap-5 items-center"> Starting @ 
           <span className='text-[#cca471] text-[45px]'> $ 100.00 </span> </div>
-          <button className=' relative btn cursor-pointer w-[222px] bg-[#343435] duration-300'> <p className='text-white  text-center py-3.5 text-lg'>EXPLORE</p> </button>
+          <button className=' relative btn cursor-pointer w-55.5 bg-[#343435] duration-300'> <p className='text-white  text-center py-3.5 text-lg'>EXPLORE</p> </button>
        </div>
        
     </div>
