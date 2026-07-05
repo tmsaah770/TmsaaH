@@ -63,7 +63,7 @@ export default function Navbar() {
       <div className="lef hidden md:flex items-center justify-center gap-8 text-neutral-400 pr-5">
         {!CurrentUser ? (
           <div className="flex items-center justify-center gap-2.5">
-            <NavLink to={'/rejester'} className='cursor-pointer text-md text-white hover:text-(--main-color) duration-300'> RIGESTER </NavLink>
+            <NavLink to={'/rejester'} className='cursor-pointer text-md text-white hover:text-(--main-color) duration-300'> REGISTER </NavLink>
             <div className="h-5 w-1 bg-(--main-color)"></div>
             <NavLink to={'/login'} className='cursor-pointer text-md text-white hover:text-(--main-color) duration-300'> LOGIN </NavLink>
           </div>
@@ -116,7 +116,7 @@ export default function Navbar() {
           <div className="flex flex-col items-center gap-4 mt-4 w-full px-5">
             {!CurrentUser ? (
               <div className="flex items-center justify-center gap-4 w-full">
-                <NavLink to={'/rejester'} onClick={toggleMobileMenu} className='text-white hover:text-(--main-color) font-semibold'> RIGESTER </NavLink>
+                <NavLink to={'/rejester'} onClick={toggleMobileMenu} className='text-white hover:text-(--main-color) font-semibold'> REGISTER </NavLink>
                 <div className="h-5 w-1 bg-(--main-color)"></div>
                 <NavLink to={'/login'} onClick={toggleMobileMenu} className='text-white hover:text-(--main-color) font-semibold'> LOGIN </NavLink>
               </div>

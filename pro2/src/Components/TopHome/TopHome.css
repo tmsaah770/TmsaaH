@@ -1,38 +1,56 @@
 .TopHome .aler::after{
     content: '';
     position: absolute;
-    left: 0;
+    left: 50%;
+    transform: translateX(-50%);
     bottom: 0;
   background-color: #cca471;
   width: 140px;
   height: 4px;
 }
 @media (min-width: 768px) {
-  .TopHome .aler::after { width: 220px; height: 5px; }
+  .TopHome .aler::after { 
+    left: 0; 
+    transform: none; 
+    width: 220px; 
+    height: 5px; 
+  }
 }
 .TopHome .aler2::after{
     content: '';
     position: absolute;
-    left: 0;
+    left: 50%;
+    transform: translateX(-50%);
     bottom: 0;
   background-color: #cca471;
   width: 160px;
   height: 4px;
 }
 @media (min-width: 768px) {
-  .TopHome .aler2::after { width: 255px; height: 5px; }
+  .TopHome .aler2::after { 
+    left: 0; 
+    transform: none; 
+    width: 255px; 
+    height: 5px; 
+  }
 }
 .TopHome .aler3::after{
     content: '';
     position: absolute;
-    left: 0;
+    left: 50%;
+    transform: translateX(-50%);
     bottom: 0;
   background-color: #cca471;
   width: 180px;
   height: 4px;
 }
 @media (min-width: 768px) {
-  .TopHome .aler3::after { width: 300px; height: 5px; }
+  .TopHome .aler3::after { 
+    left: 0; 
+    transform: none; 
+    width: 300px; 
+    height: 5px; 
+  }
 }
 
 .ex{

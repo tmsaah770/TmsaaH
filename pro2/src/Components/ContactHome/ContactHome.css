@@ -1,11 +1,18 @@
 .ContactHome .new::after{
 content: '';
     position: absolute;
-    left: -40px;
+    left: -10px;
     bottom: 0;
   background-color: #cca471;
-  width: 300px;
-  height: 5px;
+  width: 160px;
+  height: 4px;
+}
+@media (min-width: 768px) {
+  .ContactHome .new::after {
+    left: -40px;
+    width: 300px;
+    height: 5px;
+  }
 }
 
 .ContactHome .in-b{

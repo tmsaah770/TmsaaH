@@ -15,11 +15,11 @@ export default function Footer() {
   return (
     <>
       <FooterHome/>
-    <div className='Footer bg-[#0e1d55] flex items-center justify-between w-full px-20 py-8   '>
-      <div className="l flex items-center justify-center">
-        <p className=' text-lg text-neutral-400'> All Right Reserved © 2025, <span className=' text-xl cursor-pointer hover:text-amber-500 duration-300 font-bold'> MAHMOUD ABO TALEB </span> </p>
+    <div className='Footer bg-[#0e1d55] flex flex-col md:flex-row items-center justify-between w-full px-6 md:px-20 py-6 md:py-8 gap-4'>
+      <div className="l flex items-center justify-center text-center">
+        <p className=' text-base md:text-lg text-neutral-400'> All Right Reserved © 2025, <span className=' text-lg md:text-xl cursor-pointer hover:text-amber-500 duration-300 font-bold'> MAHMOUD ABO TALEB </span> </p>
       </div>
-      <div className="r flex items-center justify-center gap-5 text-2xl text-white">
+      <div className="r flex flex-wrap items-center justify-center gap-5 text-2xl text-white">
        <FaCcVisa className=' cursor-pointer hover:text-(--main-color) duration-200' />
       <FaCcMastercard className=' cursor-pointer hover:text-(--main-color) duration-200'/>
       <SiAmericanexpress className=' cursor-pointer hover:text-(--main-color) duration-200'/>

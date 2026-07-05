@@ -12,15 +12,15 @@ export default function ContactHome() {
 
   return (
     <div className='ContactHome'>
-      <div className="cont relative">
-      <img src={bg} alt="" />
-      <div className=" absolute left-[50%] top-[50%]   translate-[-50%]  text-amber-50 flex flex-col items-center justify-center gap-10">
-        <h1 className=' text-5xl text-white new relative '> Newsletter </h1>
-        <div className="inp flex items-center justify-around">
-          <input type="text" placeholder='      Email Address' className=' w-[450px] h-14 border border-neutral-600'/>
-          <button className=' relative in-b cursor-pointer bg-[#343435] text-white  text-center py-3.5 text-lg w-[150px]' > SUBSCRIBE </button>
+      <div className="cont relative h-[400px] md:h-auto overflow-hidden">
+      <img src={bg} alt="" className="w-full h-full object-cover" />
+      <div className=" absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 text-amber-50 flex flex-col items-center justify-center gap-6 md:gap-10 w-full max-w-xl px-4 text-center">
+        <h1 className=' text-3xl md:text-5xl text-white new relative w-fit mx-auto '> Newsletter </h1>
+        <div className="inp flex flex-col sm:flex-row items-center justify-center gap-4 w-full">
+          <input type="text" placeholder='Email Address' className=' w-full max-w-[400px] h-14 border border-neutral-600 bg-black/40 px-4'/>
+          <button className=' relative in-b cursor-pointer bg-[#343435] text-white  text-center py-3.5 text-lg w-full max-w-[150px]' > SUBSCRIBE </button>
         </div>
-        <p className=' text-neutral-400 font-light text-lg'> Will be used in accordance with our Privacy policy </p>
+        <p className=' text-neutral-400 font-light text-md md:text-lg'> Will be used in accordance with our Privacy policy </p>
         <div className="ico flex items-center justify-center gap-2.5 ">
         <div  className='icon-b relative cursor-pointer w-[35px] h-[35px] bg-[#343435] text-neutral-400 hover:text-white duration-500 flex items-center justify-center text-center py-3.5 text-md '> <FaXTwitter/> </div>
         <div className='icon-b relative cursor-pointer w-[35px] h-[35px] bg-[#343435] text-neutral-400 hover:text-white duration-500 flex items-center justify-center text-center py-3.5 text-md '> <FaFacebookSquare /> </div>

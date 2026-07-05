@@ -15,12 +15,11 @@ export default function FooterHome() {
 
   return (
     <div className='FooterHome flex flex-col '>
-     <div className="top relative">
-      <div className="bg ">
-        <img src={footer} alt="" />
-      </div>
-      <div className=" absolute size-full flex items-start justify-center top-0 left-0 bg-[#0000009d] pt-[75px] ">
-        <div className="d-one flex flex-col items-start  gap-2.5  w-[285px]">
+     <div className="top relative w-full min-h-[400px] py-12 md:py-[75px] flex items-center justify-center overflow-hidden">
+      <img src={footer} alt="" className="absolute top-0 left-0 w-full h-full object-cover -z-10" />
+      <div className="absolute inset-0 bg-[#000000bd] -z-10"></div>
+      <div className="w-[90%] mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 md:gap-10">
+        <div className="d-one flex flex-col items-start  gap-2.5  w-full">
           <p className=' text-2xl text-white '> Help </p>
           <span className=' text-neutral-400  hover:text-(--main-color) duration-500 cursor-pointer'> Search </span>
           <span className=' text-neutral-400  hover:text-(--main-color) duration-500 cursor-pointer'> Help </span>
@@ -28,7 +27,7 @@ export default function FooterHome() {
           <span className=' text-neutral-400  hover:text-(--main-color) duration-500 cursor-pointer'> Privacy Policy </span>
           <span className=' text-neutral-400  hover:text-(--main-color) duration-500 cursor-pointer'> Shipping Details </span>
         </div>
-        <div className="d-tow flex flex-col items-start justify-center gap-2.5 w-[260px]">
+        <div className="d-tow flex flex-col items-start justify-center gap-2.5 w-full">
           <p className=' text-2xl text-white '> Support </p>
           <span className=' text-neutral-400  hover:text-(--main-color) duration-500 cursor-pointer'> Contact us </span>
           <span className=' text-neutral-400  hover:text-(--main-color) duration-500 cursor-pointer'> About us </span>
@@ -36,7 +35,7 @@ export default function FooterHome() {
           <span className=' text-neutral-400  hover:text-(--main-color) duration-500 cursor-pointer'> Refunds & Returns </span>
           <span className=' text-neutral-400  hover:text-(--main-color) duration-500 cursor-pointer'> Deliveries </span>
         </div>
-        <div className="d-three flex flex-col items-start justify-center gap-2.5 w-[260px]">
+        <div className="d-three flex flex-col items-start justify-center gap-2.5 w-full">
           <p className=' text-2xl text-white '> Information </p>
           <span className=' text-neutral-400  hover:text-(--main-color) duration-500 cursor-pointer'> Search Terms </span>
           <span className=' text-neutral-400  hover:text-(--main-color) duration-500 cursor-pointer'> Advanced Search </span>
@@ -44,15 +43,14 @@ export default function FooterHome() {
           <span className=' text-neutral-400  hover:text-(--main-color) duration-500 cursor-pointer'> Store Location </span>
           <span className=' text-neutral-400  hover:text-(--main-color) duration-500 cursor-pointer'> Orders & Returns </span>
         </div>
-        <div className="d-four flex flex-col items-start justify-center gap-2.5 w-[260px]">
+        <div className="d-four flex flex-col items-start justify-center gap-2.5 w-full">
           <p className=' text-2xl text-white '> Address </p>
-          <span className=' text-neutral-400  flex items-center gap-2.5 '><ImHome3 className=' text-4xl' /> No: 58 A, East Madison Street, Baltimore, MD, USA 4508 </span>
+          <span className=' text-neutral-400  flex items-start gap-2.5 text-left'><ImHome3 className=' text-4xl flex-shrink-0' /> <span>No: 58 A, East Madison Street, Baltimore, MD, USA 4508</span> </span>
           <span className=' text-neutral-400  hover:text-(--main-color) duration-500 cursor-pointer flex items-center gap-2.5'><FaPhone /> 0000 - 123 - 456789</span>
           <span className=' text-neutral-400  hover:text-(--main-color) duration-500 cursor-pointer flex items-center gap-2.5'><MdEmail className=' text-xl' /> info@example.com </span>
           
         </div>
       </div>
-
      </div>
      <div className="bottom flex items-center justify-senter bg-[#010409] ">
       <div className="ll flex flex-col items-center justify-center gap-7 py-20 w-full ">
