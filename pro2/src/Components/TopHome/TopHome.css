@@ -4,8 +4,11 @@
     left: 0;
     bottom: 0;
   background-color: #cca471;
-  width: 220px;
-  height: 5px;
+  width: 140px;
+  height: 4px;
+}
+@media (min-width: 768px) {
+  .TopHome .aler::after { width: 220px; height: 5px; }
 }
 .TopHome .aler2::after{
     content: '';
@@ -13,8 +16,11 @@
     left: 0;
     bottom: 0;
   background-color: #cca471;
-  width: 255px;
-  height: 5px;
+  width: 160px;
+  height: 4px;
+}
+@media (min-width: 768px) {
+  .TopHome .aler2::after { width: 255px; height: 5px; }
 }
 .TopHome .aler3::after{
     content: '';
@@ -22,8 +28,11 @@
     left: 0;
     bottom: 0;
   background-color: #cca471;
-  width: 300px;
-  height: 5px;
+  width: 180px;
+  height: 4px;
+}
+@media (min-width: 768px) {
+  .TopHome .aler3::after { width: 300px; height: 5px; }
 }
 
 .ex{

@@ -1,11 +1,18 @@
 .PopularHome .alen::after{
     content: '';
     position: absolute;
-    left: -30px;
+    left: -10px;
     bottom: 0;
   background-color: #cca471;
-  width: 320px;
-  height: 5px;
+  width: 200px;
+  height: 4px;
+}
+@media (min-width: 768px) {
+  .PopularHome .alen::after {
+    left: -30px;
+    width: 320px;
+    height: 5px;
+  }
 }
 
 
