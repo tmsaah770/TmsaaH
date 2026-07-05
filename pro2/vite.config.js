@@ -8,6 +8,6 @@ export default defineConfig({
   plugins: [react() , tailwindcss()],
   base: '/TmsaaH/',
   build: {
-    outDir: 'docs'
+    outDir: '../docs'
   }
 })
